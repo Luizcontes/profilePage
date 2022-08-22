@@ -1,0 +1,10 @@
+input.arquivo {
+    position: absolute;
+    display: none;
+}
+
+img.picture {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}

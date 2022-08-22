@@ -1,20 +1,22 @@
 import Form from 'react-bootstrap/Form'
 
-function Address() {
+function Address({ handleInput }) {
 
     return (
-        <Form>
-            <Form.Group className='my-4' controlId='formUser'>
-                <Form.Label className='small mb-0'>Country</Form.Label>
-                <Form.Control className='mb-2' size='sm' type='text' placeholder='USA'></Form.Control>
-                <Form.Label className='small mb-0'>Address</Form.Label>
-                <Form.Control className='mb-2' size='sm' type='text' placeholder='50 Fifth Avenue'></Form.Control>
-                <Form.Label className='small mb-0'>City</Form.Label>
-                <Form.Control className='mb-2' size='sm' type='text' placeholder='New York'></Form.Control>
-                <Form.Label className='small mb-0'>Postal Code</Form.Label>
-                <Form.Control className='mb-2' size='sm' type='text' placeholder='10011'></Form.Control>
-            </Form.Group>
-        </Form>
+        <div className='col-sm-6'>
+            <Form>
+                <Form.Group controlId='formUser'>
+                    <Form.Label className='small mb-0'>Country</Form.Label>
+                    <Form.Control name='country' className='mb-2 shadow-none' size='sm' type='text' onChange={handleInput}></Form.Control>
+                    <Form.Label className='small mb-0'>Address</Form.Label>
+                    <Form.Control name='address' className='mb-2 shadow-none' size='sm' type='text' onChange={handleInput}></Form.Control>
+                    <Form.Label className='small mb-0'>City</Form.Label>
+                    <Form.Control name='city' className='mb-2 shadow-none' size='sm' type='text' onChange={handleInput}></Form.Control>
+                    <Form.Label className='small mb-0'>Postal Code</Form.Label>
+                    <Form.Control name='postalcode' className='mb-2 shadow-none' size='sm' type='text' onChange={handleInput}></Form.Control>
+                </Form.Group>
+            </Form>
+        </div>
     )
 }
 
