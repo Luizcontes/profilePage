@@ -1,3 +1,68 @@
+# Contes - Profile Page
+
+# WHAT HAVE I LEARNED BY BUILDING THIS PROJECT?
+
+-How to render components in a more harmonic way
+
+- React Bootstrap - I practiced more using this library for responsive desgin
+
+## THINGS I SHOULD FOCUS ON NEXT
+
+-Implement back-end service to store the data and the image
+
+-Create a a way to crop and rotate the profile picture
+
+-Offer a country list and postal code validation
+
+# Introduction
+
+I`ve built one more block of my e-commece application, at the end all these smalls pieces are going to feet together to provide my e-commerce experience
+
+The main focus in this project was to practice a little of designing thinking and how to apply that in the front-end development. To achieve this goal I first thought about how I`d like the form to look like and then I made a draft using Figma to play a little with the colors and spaces.
+
+Finally I tried to bring this layout to reality, using React and Bootstrap for a responsive design
+
+## Reflection
+
+Building this project I came to the conclusion that when we are thinking about an application, several idead pop up from our mind, but as we lack practical experience is very hard to measure the complexity and the amount of time needed to building something up
+
+
+## Designing
+
+This time I decided to try something different, before coding I enrolled in a Figma crash course and then I designed my layout before coding the whole interface
+
+https://www.figma.com/file/G18UXzXD6gTdPivvv8bBMU/profilePage
+
+
+## Project`s Preview
+
+![contes-profilepage](https://user-images.githubusercontent.com/70711596/186050760-8f79d573-e942-4ac4-8575-439788d60b27.gif)
+
+## Installation
+
+Clone down this repository. You will need `node`, `npm` or `yarn` installed globally on your machine.
+
+```bash
+yarn
+yarn start
+```
+
+or
+
+```bash
+npm install
+npm run start
+```
+
+The server should start at:
+
+`localhost:3000` 
+
+## Deployed version
+
+https://contes-profilepage.herokuapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -11,60 +76,3 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

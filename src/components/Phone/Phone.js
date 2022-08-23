@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import './Phone.css'
 import PhoneInput from 'react-phone-number-input'
-import Form from 'react-bootstrap/Form'
 
 function Phone({ setValue, value }) {
 

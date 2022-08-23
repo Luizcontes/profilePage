@@ -1,9 +1,9 @@
 import Figure from 'react-bootstrap/Figure'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './Profile.css'
 import Form from 'react-bootstrap/Form'
 
-function Profile({ picture }) {
+function Profile() {
 
     const [image, setImage] = useState('img/bg-camera.jpg')
     const [click, setClick] = useState('')
